@@ -25,11 +25,12 @@ instance of chatGPT.
 
 1. Clone this repo and go in it: `git clone
    https://github.com/S1M0N38/Telegram-GPT.git && Telegram-GPT`
-2. Create new [Telegram Bot]() obtaining a token (e.g.
+2. Install dependencies: `python -m pip install -r requirements.txt`
+3. Create new [Telegram Bot]() obtaining a token (e.g.
    `2837489710:GJjkajsJFmmjkjDJKSekj00JKKjkjahdja2`)
-3. Create new [OpenAI API key](https://platform.openai.com/account/api-keys)
+4. Create new [OpenAI API key](https://platform.openai.com/account/api-keys)
    (e.g. `sk-askldj9382kjdklqLlkaj92lLanEREybjae36HSMAnd2iudj`)
-4. Create new file *.env* with the following env variables (use token and
+5. Create new file *.env* with the following env variables (use token and
    api-key obtain from the previous steps)
 ```
 export TELEGRAM_TOKEN="2837489710:GJjkajsJFmmjkjDJKSekj00JKKjkjahdja2"
